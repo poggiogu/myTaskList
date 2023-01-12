@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -13,5 +13,8 @@ export class HeaderComponent {
 
   ngOnInit(): void {};
 
+  toggleAddTask(): void {
+    console.log("Toggle Add Task!!");
+  };
 
 }
