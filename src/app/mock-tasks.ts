@@ -1,6 +1,6 @@
 import { Task } from "./Task"
 
-export const TASK:Task[] = [
+export const TASKS:Task[] = [
     {
         id: 1,
         text: "Terminar nuestro primer modulo de Angular",
@@ -22,7 +22,7 @@ export const TASK:Task[] = [
     {
         id: 4,
         text: "Leer código limpio",
-        day: 'noviembre 1, a las 14:00',
+        day: 'Noviembre 1, a las 14:00',
          reminder: true,
     }
 ]
