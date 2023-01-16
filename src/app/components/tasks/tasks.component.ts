@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Task } from 'src/app/Task';
-import { TASKS } from 'src/app/mock-tasks'; 
-import { faTimes } from '@fortawesome/free-solid-svg-icons'; 
-
+import { Observable, of } from 'rxjs';
+import { HttpClient, HttpHandler } from '@angular/common/http';
+import { TaskService } from 'src/app/services/task.service';
+import { Task  } from 'src/app/Task';
 
 @Component({
   selector: 'app-tasks',
@@ -10,12 +10,16 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./tasks.component.css']
 })
 export class TasksComponent implements OnInit {
-  faTimes = faTimes;
-  tasks:Task[] = TASKS;
+  
+  tasks:Task[] = [];
 
-  constructor() {}
+  constructor(
+    private taskService : TaskService
+  ) {}
   
   ngOnInit(): void { 
+    //como una promesa
+    this.taskService.getTasks().subscribe((tasks) => (this.tasks = tasks) ) //método subscribe de los observables
   }
 
 

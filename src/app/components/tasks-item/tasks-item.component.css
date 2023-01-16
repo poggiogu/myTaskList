@@ -1,21 +1,22 @@
 .task{
+
     background-color:#f4f4f4;
     margin:5px;
     padding:10px 20px;
     cursor: pointer;
+    border-left-style: solid;
+    border-width:5px;
+    border-color: orange;
+
+
 }
 
 .task.reminder{
-    border-left: 5px solid green;
+    border-left-style: 5px solid green;
 }
 
 .task h3{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between  ;
 }
-/*.fa-icon{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}*/
