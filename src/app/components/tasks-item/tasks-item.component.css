@@ -4,19 +4,16 @@
     margin:5px;
     padding:10px 20px;
     cursor: pointer;
-    border-left-style: solid;
-    border-width:5px;
-    border-color: orange;
-
-
 }
 
 .task.reminder{
-    border-left-style: 5px solid green;
+    border-left-style: solid;
+    border-color: orange;
+    border-width: 5px;
 }
 
 .task h3{
     display: flex;
     align-items: center;
-    justify-content: space-between  ;
+    justify-content: space-between;
 }

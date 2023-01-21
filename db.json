@@ -1,34 +1,64 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "text": "Terminar nuestro primer modulo de Angular",
-            "day": "Agosto 15, a las 12:00",
-            "reminder": true
-        },
-        {
-            "id": 2,
-            "text": "Hacer las compras para la cena",
-            "day": "Septiembre 21, a las 15:00",
-            "reminder": true
-        },
-        {
-            "id": 3,
-            "text": "Investigar Bootstrap",
-            "day": "Agosto 13, a las 09:00",
-            "reminder": true
-        },
-        {
-            "id": 4,
-            "text": "Leer código limpio",
-            "day": "Noviembre 1, a las 14:00",
-            "reminder": true
-        },
-        {
-            "id": 5,
-            "text": "Empezar a marcar para construir",
-            "day": "Enero 16, 9:00",
-            "reminder": true
-        }
-    ]
+  "tasks": [
+    {
+      "text": "llevar caja estanca a obra de Amancay",
+      "day": "sábado 21 de enero, a las 8:00",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "llevar tornillos para paneles en la obra",
+      "day": "mañana, a las 8",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "repasar Angular",
+      "day": "todos los días, a las 7:00",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "investigar método Subscribe",
+      "day": "cuando pueda",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "agregar limpieza de formulario",
+      "day": "cu",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "agregar limpieza de formulario",
+      "day": "cuando pueda",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "agregar drag and drop",
+      "day": "cuando pueda",
+      "reminder": true,
+      "id": 7
+    },
+    {
+      "text": "agregar drag and drop",
+      "day": "cuando pueda",
+      "reminder": true,
+      "id": 8
+    },
+    {
+      "text": "cambiar day time a formulario de tipo fecha",
+      "day": "cuando pueda",
+      "reminder": true,
+      "id": 9
+    },
+    {
+      "text": "cambiar day time a formulario de tipo fecha",
+      "day": "cuando pueda",
+      "reminder": true,
+      "id": 10
+    }
+  ]
 }
